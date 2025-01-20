@@ -1,7 +1,6 @@
 import React, {useRef} from 'react';
 import Home from './Home';  
 import './App.css';
-import Header from './Header';
 import Navbar from './Navbar';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
@@ -37,10 +36,9 @@ function App() {
 
   return (
     <div>
-      <Header />
+      <Navbar scrollToSection={scrollToSection}/>
       <Home />
       <p>hello. my portfolio.</p>
-      <Navbar scrollToSection={scrollToSection}/>
       <Projects  ref={projectsRef}/>
       <Skills ref={skillsRef}/>
       <Contact ref={contactRef}/>

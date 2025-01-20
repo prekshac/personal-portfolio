@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0e7eef;
+    padding: 10px 30px;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.navbar select{
+  padding: 8px 12px;
+  margin-left: auto;
+  font-size: 16px;
+  color: #fff;
+  background-color: #7c1616;
+  border: 1px solid #555;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+
+}
+
+.navbar select:hover {
+    background-color: #555;
+  }
+  
+  .navbar select option {
+    color: #333;
+    background-color: #fff;
+  }

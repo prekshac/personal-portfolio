@@ -40,8 +40,9 @@ function App() {
       <Home />
       <Projects  ref={projectsRef}/>
       <Skills ref={skillsRef}/>
-      <Contact ref={contactRef}/>
       <Other ref={otherRef}/>
+      <Contact ref={contactRef}/>
+      
 
 
     </div>

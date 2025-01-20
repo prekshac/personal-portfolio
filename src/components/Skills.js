@@ -1,13 +1,19 @@
 import React from 'react';
 
 const Skills = React.forwardRef((props, ref) => {
+
+  const ulStyle = { 
+    listStyleType: 'disc', 
+    marginLeft: '2rem' 
+  };
+
   return (
     <div ref={ref} className="section" id="skills">
       <h2>Skills</h2>
       
       <section>
         <h3>Programming Languages 💻</h3>
-        <ul>
+        <ul style={ulStyle}>
           <li>HTML, CSS, JavaScript (Intermediate)</li>
           <li>React.js (Intermediate)</li>
           <li>Java (Intermediate)</li>
@@ -19,7 +25,7 @@ const Skills = React.forwardRef((props, ref) => {
 
       <section>
         <h3>Databases and Tools 🗃️</h3>
-        <ul>
+        <ul style={ulStyle}>
           <li>MongoDB</li>
           <li>MySQL</li>
           <li>Postman</li>
@@ -29,7 +35,7 @@ const Skills = React.forwardRef((props, ref) => {
 
       <section>
         <h3>Software & Development Environments 🧑‍💻</h3>
-        <ul>
+        <ul style={ulStyle}>
           <li>Visual Studio Code</li>
           <li>Anaconda</li>
           <li>Jupyter</li>

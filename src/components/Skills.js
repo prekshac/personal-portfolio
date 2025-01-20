@@ -4,7 +4,40 @@ const Skills = React.forwardRef((props, ref) => {
   return (
     <div ref={ref} className="section" id="skills">
       <h2>Skills</h2>
-      <p>Here are my skills...</p>
+      
+      <section>
+        <h3>Programming Languages 💻</h3>
+        <ul>
+          <li>HTML, CSS, JavaScript (Intermediate)</li>
+          <li>React.js (Intermediate)</li>
+          <li>Java (Intermediate)</li>
+          <li>React Native (Beginner)</li>
+          <li>Python (Intermediate)</li>
+          <li>C (Beginner)</li>
+        </ul>
+      </section>
+
+      <section>
+        <h3>Databases and Tools 🗃️</h3>
+        <ul>
+          <li>MongoDB</li>
+          <li>MySQL</li>
+          <li>Postman</li>
+          <li>Git & GitHub</li>
+        </ul>
+      </section>
+
+      <section>
+        <h3>Software & Development Environments 🧑‍💻</h3>
+        <ul>
+          <li>Visual Studio Code</li>
+          <li>Anaconda</li>
+          <li>Jupyter</li>
+          <li>Android Studio</li>
+          <li>MS Office</li>
+        </ul>
+      </section>
+      
     </div>
   );
 });

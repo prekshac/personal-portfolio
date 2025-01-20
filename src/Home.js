@@ -63,9 +63,10 @@ const Home = () => {
 
       <p>
         <strong>🖥️ Let's Connect! </strong>
+        <p>
         Explore my projects, read about my journey, or drop me a message to
         discuss potential collaborations.
-      </p>
+      </p></p>
     </div>
   );
 };

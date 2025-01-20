@@ -38,7 +38,6 @@ function App() {
     <div>
       <Navbar scrollToSection={scrollToSection}/>
       <Home />
-      <p>hello. my portfolio.</p>
       <Projects  ref={projectsRef}/>
       <Skills ref={skillsRef}/>
       <Contact ref={contactRef}/>

@@ -4,29 +4,26 @@
     align-items: center;
     height: 100vh;
     background-color: #211f1f;
-    padding: 30px;
-    
+    padding: 20px;
   }
   
-  /* Card container with text and image side-by-side */
   .card-container {
     display: flex;
     align-items: center; /* Ensures vertical alignment */
-    justify-content: space-between; /* Adds space between text and image */
+    justify-content: space-between; 
     /* max-width: 1200px; */
     width: 100%;
     background: #b0a2a2;
     border-radius: 10px;
     box-shadow:  4px 8px rgba(0, 0, 0, 0.2);
     padding: 10px;
-    margin: 30px;
-    margin-top: 60px;
+    margin: 10px;
     gap: 30px;
   }
   
-  /* Text card styles */
+  
   .text-card {
-    flex: 1; /* Takes up equal space */
+    flex: 6; /* Takes up 70% space */
     padding: 15px;
   }
   
@@ -50,7 +47,7 @@
   
   /* Image card styles */
   .image-card {
-    flex: 1; /* Takes up equal space */
+    flex: 3; /* Takes up 30% space */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,6 +55,7 @@
   
   .profile-image {
     width: 50%;
+    height: 20%;
     max-width: 300px;
     border-radius: 45%;
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);

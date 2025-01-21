@@ -11,7 +11,7 @@ const Home = () => {
     <div className="home-container">
       <div className="card-container">
         <div className="text-card">
-          <h1>Hello, I am Preksha Chaturvedi! 👩‍💻</h1>
+          <h1>Hi, I am Preksha Chaturvedi! 👩‍💻</h1>
           <h3>
             Software Developer | Tech Enthusiast | Creative Problem Solver |
             Lifelong Learner

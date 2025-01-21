@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #211f1f;
+    /* background-color: #211f1f; */
     padding: 20px;
   }
   
@@ -13,9 +13,9 @@
     justify-content: space-between; 
     /* max-width: 1200px; */
     width: 100%;
-    background: #b0a2a2;
+    /* background: #b0a2a2; */
     border-radius: 10px;
-    box-shadow:  4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow:  4px 4px rgba(0, 0, 0, 0.2);
     padding: 10px;
     margin: 10px;
     gap: 30px;

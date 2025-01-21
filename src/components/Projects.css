@@ -2,7 +2,7 @@
 .projects-container {
     font-family: 'Arial, sans-serif';
     padding: 20px;
-    background-color: #f9f9f9;
+    /* background-color: #f9f9f9; */
     min-height: 50vh;
     display: flex;
     flex-direction: column;

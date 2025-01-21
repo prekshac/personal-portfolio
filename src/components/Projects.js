@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./Projects.css";
 const Projects = React.forwardRef((props, ref) => {
   return (
     <div ref={ref} className="section" id="projects">

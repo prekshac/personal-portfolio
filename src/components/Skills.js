@@ -4,7 +4,7 @@ const Skills = React.forwardRef((props, ref) => {
 
   const ulStyle = { 
     listStyleType: 'disc', 
-    marginLeft: '2rem' 
+    
   };
 
   return (

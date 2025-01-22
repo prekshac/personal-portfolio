@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = React.forwardRef((props, ref) => {
   return (
-    <div>
+    <div ref={ref} className="section" id="contact">
       <h2>Get in Touch 📬</h2>
       <p>
         Have a project idea, a collaboration opportunity, or just want to say

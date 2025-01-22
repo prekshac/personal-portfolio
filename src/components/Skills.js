@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './Skills.css';
 const Skills = React.forwardRef((props, ref) => {
 
   const ulStyle = { 
@@ -14,7 +14,7 @@ const Skills = React.forwardRef((props, ref) => {
       <section>
         <h3>Programming Languages 💻</h3>
         <ul style={ulStyle}>
-          <li>HTML, CSS, JavaScript (Intermediate)</li>
+        <li>HTML, CSS, JavaScript (Intermediate)</li>
           <li>React.js (Intermediate)</li>
           <li>Java (Intermediate)</li>
           <li>React Native (Beginner)</li>

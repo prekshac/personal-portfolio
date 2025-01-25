@@ -12,7 +12,7 @@ const Skills = React.forwardRef((props, ref) => {
       <h2>Skills</h2>
       
       <section>
-        <h3>Programming Languages 💻</h3>
+        <h3 >Programming Languages 💻</h3>
         <ul style={ulStyle}>
         <li>HTML, CSS, JavaScript (Intermediate)</li>
           <li>React.js (Intermediate)</li>

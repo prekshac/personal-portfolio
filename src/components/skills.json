@@ -4,64 +4,39 @@
         "image": "html.png"
     },
     {
-        "title": "HTML",
-        "image": "html.png"
+        "title": "CSS",
+        "image": "css.png"
     },
     {
-        "title": "HTML",
-        "image": "html.png"
+        "title": "JavaScript",
+        "image": "js.png"
     },
     {
-        "title": "HTML",
-        "image": "html.png"
+        "title": "React",
+        "image": "react.png"
     },
     {
-        "title": "HTML",
-        "image": "html.png"
+        "title": "Node",
+        "image": "node.png"
     },
     {
-        "title": "HTML",
-        "image": "html.png"
+        "title": "MongoDB",
+        "image": "mongodb.png"
     },
     {
-        "title": "HTML",
-        "image": "html.png"
+        "title": "Java",
+        "image": "java.png"
     },
     {
-        "title": "HTML",
-        "image": "html.png"
+        "title": "Python",
+        "image": "python.png"
     },
     {
-        "title": "HTML",
-        "image": "html.png"
+        "title": "SQL",
+        "image": "sql.png"
     },
     {
-        "title": "HTML",
-        "image": "html.png"
-    },
-    {
-        "title": "HTML",
-        "image": "html.png"
-    },
-    {
-        "title": "HTML",
-        "image": "html.png"
-    },
-    {
-        "title": "HTML",
-        "image": "html.png"
-    },
-    {
-        "title": "HTML",
-        "image": "html.png"
-    },
-    {
-        "title": "HTML",
-        "image": "html.png"
-    },
-    {
-        "title": "HTML",
-        "image": "html.png"
+        "title": "Git",
+        "image": "git.png"
     }
-
 ]

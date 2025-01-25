@@ -1,17 +1,37 @@
 import React from 'react';
 import './Skills.css';
-const Skills = React.forwardRef((props, ref) => {
+import skillset from './skills.json';
 
-  const ulStyle = { 
-    listStyleType: 'disc', 
-    marginLeft: '2rem' 
-  };
+
+const Skills = React.forwardRef((props, ref) => {
 
   return (
     <div ref={ref} className="section" id="skills">
       <h2>Skills</h2>
-      
-      <section>
+      <div className="skills-container">{
+        skillset.map((skills, id) => {
+          return (
+            <div className="skills-card" key={id}>
+             <div>
+               <img src={skillset.image} alt={skillset.title} />
+             </div>
+             <p>{skillset.title}</p>
+            </div>
+          );
+        },
+        )
+      }
+
+      </div>
+    </div>
+  );
+});
+
+export default Skills;
+
+
+
+{/* <section>
         <h3 >Programming Languages 💻</h3>
         <ul style={ulStyle}>
         <li>HTML, CSS, JavaScript (Intermediate)</li>
@@ -42,10 +62,4 @@ const Skills = React.forwardRef((props, ref) => {
           <li>Android Studio</li>
           <li>MS Office</li>
         </ul>
-      </section>
-      
-    </div>
-  );
-});
-
-export default Skills;
+      </section> */}
